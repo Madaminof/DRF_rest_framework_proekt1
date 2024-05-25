@@ -1,0 +1,157 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<meta http-equiv="Content-Type" content="charset=utf-8" />1-mavzu: Chiziqli algebraik tenglamalar sistemasini<br /> <div id="TextSection" dir="ltr"> 
+<br /><b>O’zbekiston Respublikasi Axborot Texnologiyalari va Kommunikatsiyalarini Rivojlantirish Vazirligi</b>
+<br /><b>Muxammad Al-Xorazmiy nomidagi</b>
+<br /><b>Toshkent Axborot Texnologiyalari Universiteti Urganch filiali</b>
+<br />
+<p>« <i>Algoritmlarni loyihalash » fanidan</i></p>
+
+<br />
+<br />
+<br /><b>Mustaqil ish</b>
+<br />
+<br /><b>Mavzu: Chiziqli algebraik tenglamalar sistemasini aniq yechish uchun sarflanadigan amllar sonini baholash</b>
+<br />
+<br />
+<br /><b>REJA:</b>
+<br /><ol> <li/> 
+<br /><b>Chiziqli algebraik tenglamalar sistemasi</b>
+<br /><li/> 
+<br /><b>Chiziqli algebraik tenglamalar sistemasini taqribiy yechish usullari</b>
+<br /></ol> 
+<br /><b>3.Yaqinlashish shartlari.</b> 
+<br /><b>4. Chiziqli algebraik tenglamalar sistemasini aniq yechish uchun sarflanadigan amllar sonini baholash</b>
+<br />
+<p>Nazariy va tadbiqiy matematikaning ko‘pgina masalalari birinchi darajali chiziqli tenglamalar sistemasini yechishga olib kelinadi. Masalan, funksiyani<i>ng n-</i>ta nuqtada berilgan qiymatlari yordamida <i>n</i>-tartibli ko‘phad bilan interpolyatsiyalash yoki funksiyani o‘rta kvadratlar usuli yordamida yaqinlashtirish masalalari birinchi darajali chiziqli tenglamalar sistemasini yechishga keltiriladi.  </p>
+
+<br />Birinchi darajali chiziqli tenglamalar sistemasini hosil qilishning manbai uzluksiz funksional tenglamalarni chekli ayirmali tenglamalar bilan yaqinlashtirishdir.  
+<br />Birinchi darajali chiziqli tenglamalar sistemasini yechish asosan ikki usulga, ya’ni aniq va iteratsion usullarga bo‘linadi.  
+<br /><i><u>Aniq usul</u></i> deganda chekli miqdordagi arifmetik amallarni aniq bajarish natijasida masalaning aniq yechimini topish tushuniladi.  
+<br /><i><u>Iteratsion</u> </i>usullarda chiziqli tenglamalar sistemasining yechimi ketmaket yaqinlashishlarning limiti sifatida topiladi.  
+<br />Chiziqli tenglamalar sistemasini yechishning noma’lumlarni ketma-ket yo‘qotish orqali aniqlash usuli, ya’ni Gauss usulini ko‘rib chiqamiz.  
+<br />Bu usul bir necha hisoblash yo‘llariga ega. Shulardan biri Gaussning kompleks yo‘lidir.  
+<br />Ushbu sistema berilgan bo‘lsin  
+<br /> 
+<br />Faraz qilaylik, a<sub>11</sub>≠0 (etakchi element) bo‘lsin, aks holda tenglamalarning o‘rinlarini almashtirib, <i>x</i><sub>1 </sub>oldidagi koeffisienti noldan farqli bo‘lgan tenglamani birinchi o‘ringa ko‘chiramiz.  
+<br />Sistemadagi birinchi tenglamaning barcha koeffisientlarini a<sub>11</sub> ga bo‘lib,  
+<br /><i>х</i>1 +<i>b</i>12(1) <i>x</i>2 +...+<i>b</i>1(<i>n</i>1) <i>xn </i>=<i>b</i>1(,1<i>n</i>)+1 (2)  
+<br />ni hosil qilamiz, bu yerda  
+<br /><i><u>a</u></i><u>12 </u>=<i>b</i>12(1),. . . , <i>aa</i><u>1</u>11<i><u>n </u></i>=<i>b</i>1(<i>n</i>1), <i>aa</i>1,11<i>n</i>+1 =<i>b</i>1(,1<i>n</i>)+1 <i>a</i>11
+<br />yoki qisqacha <i>b</i><sub>1</sub><sup>(1</sup><sub><i>j</i></sub><sup>) </sup>= <sup><i>a</i></sup><sub><i>a</i></sub><sup><u>1</u></sup>11<sup><i>j </i></sup>(<i>j </i>≥ 2).  
+<br />(2) tenglamadan foydalanib, (1) sistemaning qolgan tenglamalarida <i>x</i><sub><i>1 </i></sub>ni yo‘qotish mumkin. Buning uchun (2) tenglamani ketma-ket <i>a</i><sub><i>21</i></sub>, <i>a</i><sub><i>31</i></sub>, … larga ko‘paytirib, mos ravishda sistemaning ikkinchi, uchinchi va h.k. tenglamalaridan ayiramiz. Natijada, quyidagi sistema hosil bo‘ladi.  
+<br /> 
+<br />bu yerda <i>a</i><sub><i>ij</i></sub><sup>(1) </sup>koeffisientlar  
+<br /><i>aij</i>(1) =<i>aij </i>−<i>ai</i>1<i>b</i>1(1<i>j</i>) ,(<i>i</i>, <i>j </i>≥ 2)  
+<br />formula yordamida hisoblanadi.  
+<br />Endi (3) sistema ustida ham shunga o‘xshash almashtirishlar bajaramiz. Buning uchun (3) sistemadagi birinchi tenglamaning barcha koeffisientlarini yetakchi element <i>a</i><sub>22</sub><sup>(1) </sup>≠0 ga bo‘lib,  
+<br /><i>x</i>2 +<i>b</i>23(2) <i>x</i>3 +...+<i>b</i>2(2<i>n</i>) <i>xn </i>= <i>b</i>2(,2<i>n</i>)+1 (4)<i> </i> 
+<br />ni hosil qilamiz, bu yerda  
+<br />(2) <i>a </i>
+<br /><i>b</i>2 <i>j </i>=<i>a</i><sub>22</sub>(1) ( <i>j </i>≥3)  
+<br />(4) tenglama yordamida (3) sistemaning keyingi tenglamalarida yuqoridagidek <i>x</i><sub><i>2</i></sub> ni yo‘qotib,  
+<br /> 
+<br />
+<p>sistemaga kelamiz, bu yerda  </p>
+
+<br /><i>aij</i>(2) =<i>aij</i>(1) −<i>ai</i>(21)<i>b</i>2(2<i>j</i>), (<i>i</i>, <i>j </i>≥ 2)  
+<br />Noma’lumlarni yo‘qotish jarayoni davom ettirilib, bu jarayonni <i>m–</i>qadamgacha bajarish mumkin deb faraz qilamiz va <i>m</i> – qadamda quyidagi sistemaga ega bo‘lamiz.  
+<br /> bu yerda  
+<br /><i>a </i>(<i>m</i>)
+<br /> (<i>m</i>) <i>mj </i>, <i>a</i>(<i>m</i>)
+<br /> <i>bmj </i>= <i>a</i><sub><i>mm</i></sub>(<i>m</i>) <i>ij </i>=<i>aij</i>(<i>m</i>−1) −<i>aim</i>(<i>m</i>−1)<i>bmj</i>(<i>m</i>) (<i>i</i>, <i>j </i>≥ <i>m </i>+1) .  
+<br />Faraz qilaylik, <i>m </i>mumkin bo‘lgan oxirgi qadamning nomeri bo‘lsin. Ikki hol bo‘lishi mumkin: <i>m=n </i>yoki <i>m<n</i>. Agar <i>m=n</i> uchburchak matritsali va (1) sistemaga ekvivalent bo‘lgan quyidagi  
+<br /> sistemaga ega bo‘lamiz. Oxirgi sistemadan ketma-ket <i>x</i><sub><i>n</i></sub>, <i>x</i><sub><i>n</i></sub><sub>−</sub><sub>1</sub>,..., <i>x</i><sub>1</sub> larni topish mumkin  
+<br /> (6) uchburchak sistemasining koeffisientlarini topish Gauss usulining <i><b>to‘g‘ri yurishi</b></i>, (7) sistemadan yechimini topish Gauss usulining <i><b>teskari yurishi</b></i> deyiladi.  
+<br /></div><div><b>Chiziqli tenglamalar sistemasini Gauss usuli yordamida yechish algoritmi va dasturi </b> 
+<br /><i><u><b>1-misol</b></u></i>.  
+<br />  Gauss usuli bilan quyidagi sistema yechilsin.  
+<br /> 
+<br />(8) tenglamadan <i>x</i><sub>1</sub> ni topamiz  
+<br />2<i>x</i><sub>1 </sub>−3<sub>2 </sub><i>x</i>+ 2<i>x</i><sub>3 </sub>− 4<i>x</i><sub>4 </sub>= 5,
+<br />2<i>x</i><sub>1 </sub><sup>= </sup>5<sup>+ </sup>3<i>x</i><sub>2 </sub><sup>− </sup>2<i>x</i><sub>3 </sub><sup>+ </sup>4<i>x</i><sub>4 </sub>, (12) <i>x</i>1 = <u>5</u>2 + <u>3</u>2 <i>x</i>2 −<i>x</i>3 + 2<i>x</i>4 ,  
+<br />(12) tenglamani (9) tenglamadagi<i> x</i><sub><i>1</i></sub> ni o‘rniga qo‘yamiz va uni ixchamlaymiz.  
+<br />3<i>x</i><sub>1 </sub>+<i>x</i><sub>2 </sub>− 2<i>x</i><sub>3 </sub>− 2<i>x</i><sub>4 </sub>= 4,
+<br /> (12) tenglamani (10) tenglamadagi <i>x</i><sub><i>1</i></sub><i> </i>ni o‘rniga qo‘yamiz va uni ixchamlaymiz.  
+<br />4<i>x</i><sub>1 </sub>+ 2<i>x</i><sub>2 </sub>−3<i>x</i><sub>3 </sub>+ <i>x</i><sub>4 </sub>= 2,
+<br /><ol start="12"> <li/> 
+<br /> tenglamani (11) tenglamadagi <i>x</i><sub><i>1 </i></sub>ni o‘rniga qo‘yamiz va uni ixchamlaymiz.  
+<br /></ol> 
+<br />  <i>x</i><sub>1 </sub>+<i>x</i><sub>2 </sub>+<i>x</i><sub>3 </sub>+<i>x</i><sub>4 </sub>= 2,
+<br />   + <sup><u>3</u></sup><sub>2 </sub><i>x</i><sub>2 </sub>−<i>x</i><sub>3 </sub>+ 2<i>x</i><sub>4 </sub>+<i>x</i><sub>2 </sub>+<i>x</i><sub>3 </sub>+<i>x</i><sub>4 </sub>= 2,
+<br />5+ 3<i>x</i><sub>2 </sub>− 2<i>x</i><sub>3 </sub>+ 4<i>x</i><sub>4 </sub>+ 2<i>x</i><sub>2 </sub>+ 2<i>x</i><sub>3 </sub>+ 2<i>x</i><sub>4 </sub>= 4,
+<br />5<i>x</i><sub>2 </sub>+ 6<i>x</i><sub>4 </sub>=−1.
+<br />Yuqoridagilardan quyidagi yangi tenglamalar sistemasini hosil qilamiz  
+<br /><ol start="12"> <li/> 
+<br /> tenglamadan <i>x</i><sub><i>2 </i></sub>ni topamiz 
+<br /></ol> 
+<br />
+<br /><b>Algoritmi</b>: 
+<br /> 
+<br /> 
+<br /></div> <div id="Section1" dir="ltr" gutter="8" > 
+<br />Dasturi:  
+<br /><i>a x a x</i>11 1 + 12 2
+<br /><i>a x a x</i>21 1 + 22 2
+<br />
+<br />......
+<br /><i>a x a xn</i>1 1 + <i>n</i>2 2 + +... <i>a x</i>1<i>n n </i>=<i>b</i>1
+<br />+ +... <i>a x</i>2<i>n n </i>=<i>b</i>2  
+<br />+ +... <i>a xnn n </i>=<i>bn</i>
+<br /></div> 
+<br />Program Gauss1; label 1,2,3,4,5; var a:array[1..10, 1..10] of real; b,x:array[1..10] of real; c,s:real; i,j,k,n:integer; begin readln(n); for i:=1 to n do begin for j:=1 to n do read(a[i,j]); readln(b[i]); end; k:=1; 3: i:=k+1; 2: c:=a[i,k]/a[k,k]; a[i,k]:=0; j:=k+1; 1: a[i,j]:=a[i,j]-c*a[k,j]; if j<n then begin j:=j+1; goto 1 end; b[i]:=b[i]-c*b[k]; if i<n then begin i:=i+1; goto 2 end; if k<n-1 then begin k:=k+1; goto 3 end; x[n]:=b[n]/a[n,n]; i:=n-1; 5: j:=i+1; s:=0; 4: s:=s+a[i,j]*x[j]; if j<n then begin j:=j+1; goto 4 end; x[i]:=(b[i]-s)/a[i,i]; if i>1 then begin i:=i-1; goto 5 end;  
+<br />for i:=1 to n do writeln(x[i]:4:2); end.  
+<br /><i>a x a x</i>11 1 + 12 2 + +... <i>a x</i>1<i>n n </i>=<i>a</i>1 1<i>n</i>+
+<br /><table width="408" cellpadding="3" cellspacing="0"> <col width="165"> <col width="137"> <col width="88"> <tr> <td width="165" height="82" valign="top"> 
+<br /><i>a x a x</i>21 1 + 22 2
+<br />
+<br />
+<br />......
+<br />
+<br /><i>a x a xn</i>1 1 + <i>n</i>2 2
+<br /></td> <td width="137" valign="top"> 
+<br />+ +... <i>a x</i>2<i>n n </i>+ +... <i>a xnn n</i>
+<br /></td> <td width="88" valign="bottom"> 
+<br /><sup>=</sup><i>a</i>2 1<i>n</i><sub>+</sub>
+<br />=<i>ann</i>+1
+<br /></td> </tr> </table> 
+<br />program Gauss; var a:array[1..10, 1..10] of real; x:array[1..10] of real; c,s,d:real; i,j,k,n,l,p:integer;  
+<br />begin readln(n); for i:=1 to n do for j:=1 to n+1 do readln(a[i,j]); for k:=1 to n do begin  
+<br />l:=k; while a[k,k]=0 do begin  
+<br />if a[l+1,k]=0 then else begin for p:=k to n+1 do7 begin d:=a[k,p]; a[k,p]:=a[l+1,p]; a[l+1,p]:=d; end; break; end; l:=l+1; end; for i:=k to n-1 do begin c:=a[i+1,k]; for j:=k to n+1 do  
+<br />a[i+1,j]:=(a[k,j]/a[k,k])*c-a[i+1,j]; end; end; x[n]:=a[n,n+1]/a[n,n]; for k:=n-1 downto 1 do begin s:=0; for i:=k+1 to n do s:=s+a[k,i]*x[i]; x[k]:=(a[k,n+1]-s)/a[k,k] end; for i:=1 to n do writeln(x[i]:4:2); end.  
+<br /><i><u><b>2-masala.</b></u></i> Quyidagi chiziqli tenglamalar sistemasini yeching:  
+<br />3<i>x x</i><sub>1 </sub>− +<sub>2 </sub>5<i>x</i><sub>3 </sub>+ =<i>x</i><sub>4 </sub>7 2<i>x</i><sub>1 </sub>+5<i>x</i><sub>2 </sub>−3<i>x</i><sub>3 </sub>=−1
+<br />
+<br />  2<i>x</i><sub>1 </sub>−4<i>x</i><sub>3 </sub>+3<i>x</i><sub>4 </sub>=6  
+<br /><sub></sub>−
+<br />6<i>x</i><sub>1 </sub>+4<i>x</i><sub>2 </sub>−3<i>x</i><sub>3 </sub>−2<i>x</i><sub>4 </sub>=3
+<br /><i><u><b>Bajarish.</b></u></i> 1-masaladagidek, tenglamalar sistemasini <i>AX </i><sub>=</sub><i>B</i> ko`rinishda yozib olamiz. Bu yerda <i><b>A</b></i> – noma`lumlar koeffisentlardan tashkil topgan matritsa, <i><b>B</b></i>– ozod hadlardan tashkil topgan ustun (vektor), <i><b>X</b></i>– noma`lumlar ustuni (vektori).  
+<br />3 -1 5 1 <sub></sub>
+<br /><i>A</i>=<sup></sup>-22 5 -3 0 -4 03<sup></sup>, <i>B</i>=<sub></sub><sup>7</sup>−1<sub></sub>, <i>X </i>= <sub></sub><sub> </sub><sub></sub><sub> </sub><sub></sub><sup><i>x</i></sup><i>x</i>1<sub>2</sub>  
+<br />  
+<br />6 4 -3 -2<sub></sub>
+<br />Demak, <i>X </i><sub>=</sub><i>A</i><sup>−</sup><sup>1</sup><i>B </i>.  
+<br /><i><b>A</b></i> matritsani, ya`ni noma`lumlar koeffisentlarini <b>A1:D4</b> maydonga, <i><b>B</b></i> vektorni, ya`ni ozod hadlarni <b>F1:F4</b> maydonga kiritamiz. <i><b>X</b></i> vektor uchun <b>H1:H4</b> maydonni belgilab <b>=МУМНОЖ(МОБР(A1:D4);F1:F4)</b> formulani kiritamiz va <b>Ctrl+Shift+Enter </b>tugmalarini birgalikda bosamiz. Natijada <b>H1:H4</b> maydonda izlanayotgan noma`lumlar hosil bo`ladi:  
+<br /> 
+<br /> 
+<br /><b>FOYDALANILGAN ADABIYOTLAR RO`YXATI</b>
+<br />
+<br /><ol> <li/> 
+<br />Isroilov M. «Hisoblash metodlari», T., "O`zbekiston", 2003
+<br /><li/> 
+<br />Shoxamidov Sh.Sh. «Amaliy matematika unsurlari», T., "O`zbekiston", 1997
+<br /><li/> 
+<br />Boyzoqov A., Qayumov Sh. «Hisoblash matematikasi asoslari», O`quv qo`llanma. Toshkent 2000.
+<br /><li/> 
+<br />Abduqodirov A.A. «Hisoblash matematikasi va programmalash», Toshkent. "O`qituvchi" 1989.
+<br /><li/> 
+<br />Vorob`eva G.N. i dr. «Praktikum po vichislitel’noy matematike» M. VSh. 1990.
+<br /><li/> 
+<br />Abduhamidov A., Xudoynazarov S. «Hisoblash usullaridan mashqlar va laboratoriya ishlari», T.1995.
+<br /><li/> 
+<br />Siddiqov A. «Sonli usullar va programmalashtirish», O`quv qo`llanma. T.2001. 
+<br /><li/> 
+<br />Internet ma`lumotlarini olish mumkin bo`lgan saytlar:
+<br /></ol> </n></n></n><br />http://fayllar.org</html>
