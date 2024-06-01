@@ -38,8 +38,17 @@ INSTALLED_APPS = [
     'app1',
 
     'rest_framework',
-    'drf_yasg',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'dj_rest_auth',
+    'rest_framework.authtoken',
+    'allauth.socialaccount',
+
 ]
+
+TOKEN_MODEL = None
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -49,8 +58,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
 
+    'allauth.account.middleware.AccountMiddleware',
+
+]
 ROOT_URLCONF = 'project.urls'
 
 TEMPLATES = [
@@ -121,3 +132,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+SITE_ID = 1
