@@ -1,7 +1,6 @@
 from django.contrib import admin
-from .models import User,Done,Code
+from .models import User, ConfirmUser
 # Register your models here.
 
 admin.site.register(User)
-admin.site.register(Done)
-admin.site.register(Code)
+admin.site.register(ConfirmUser)
